@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+header{
+    display:flex;
+    height: 50px;
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 20px;
+    box-shadow: 0 0 2px 2px rgba(235, 230, 230, 0.584);
+
+}
+#part{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+#fist{
+    padding:  0px 20px;
+}
+ nav a{
+    padding: 18px;
+    text-decoration: none;
+    color: black;
+}
+#rag{
+     border: 2px  solid black;
+     background-color: transparent;
+     border-radius: 10px;
+     padding: 8px 12px;
+     
+}
+#main{
+    height: 580px;;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   gap: 140px;
+ 
+      /* background-color: red; */
+}
+#m1{
+    height: 500px;
+    width: 40%;
+    /* background-color: antiquewhite; */
+    margin-left: 100px;
+}
+aside{
+    height: 580px;
+    width: 30%;
+    /* background-image: url("images/image-hero-desktop.png"); */
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+h1{
+    font-size:6rem;
+     
+}
+#learn{
+    line-height: 6rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: black;
+    padding: 10px 18px;
+    border-radius: 10px;
+}
+P{
+    color: gray;
+    font-size:25px;
+}
+footer{
+    margin-left:200px;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 200px;
+}
+span{
+    padding: 10px;
+}
+#learn:hover{
+    padding: 10px 24px 10px 18px; 
+    transition: 400ms ease;
+}
