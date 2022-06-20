@@ -42,7 +42,7 @@ header{
     display: flex;
     align-items: center;
    justify-content: center;
-   gap: 140px;
+   gap: 80px;
  
       /* background-color: red; */
 }
@@ -50,10 +50,11 @@ header{
     height: 500px;
     width: 40%;
     /* background-color: antiquewhite; */
-    margin-left: 100px;
+    margin-left: 140px;
+    margin-top: 150px;
 }
 aside{
-    height: 580px;
+    height: 500px;
     width: 30%;
     /* background-image: url("images/image-hero-desktop.png"); */
 background-position: center;
@@ -61,7 +62,7 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 h1{
-    font-size:6rem;
+    font-size:4rem;
      
 }
 #learn{
@@ -75,14 +76,14 @@ h1{
 }
 P{
     color: gray;
-    font-size:25px;
+    font-size:18px;
 }
 footer{
     margin-left:200px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: gray;
-    margin-bottom: 200px;
+    margin-top: -90px;
 }
 span{
     padding: 10px;
